@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Summary>The utility library for TakNotify tests</Summary>
+    <Description>The utility library for TakNotify tests</Description>
+    <Authors>Frandi Dwi</Authors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RepositoryUrl>https://github.com/TakNotify/TakNotify.Test</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>taknotify;notification;dotnet-core;test</PackageTags>
+    <Copyright>Copyright (c) Frandi Dwi 2020. All rights reserved</Copyright>
+    <PackageProjectUrl>https://taknotify.github.io/</PackageProjectUrl>
+    <PackageIconUrl>https://taknotify.github.io/images/icon.png</PackageIconUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.3" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+  </ItemGroup>
+
+</Project>
